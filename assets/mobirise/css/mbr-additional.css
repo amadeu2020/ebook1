@@ -805,3 +805,188 @@ section.lazy-placeholder:after {
     padding-left: 4rem;
   }
 }
+.cid-s8kJiqew4V {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-s8kJiqew4V .form-text {
+  color: #767676;
+}
+@media (max-width: 767px) {
+  .cid-s8kJiqew4V .content {
+    text-align: center;
+  }
+  .cid-s8kJiqew4V .content > div:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+.cid-s8kJiqew4V .img-logo img {
+  height: 6rem;
+}
+.cid-s8kJiqew4V .form-group,
+.cid-s8kJiqew4V .input-group-btn {
+  padding: 0;
+}
+.cid-s8kJiqew4V .form-control {
+  font-size: .75rem;
+  text-align: center;
+  min-width: 150px;
+}
+.cid-s8kJiqew4V .input-group-btn .btn {
+  padding: .75rem 1.5625rem !important;
+  margin-left: .625rem;
+  text-transform: none;
+  color: #fff;
+  text-align: center;
+}
+.cid-s8kJiqew4V .copyright .mbr-text {
+  color: #767676;
+}
+@media (max-width: 767px) {
+  .cid-s8kJiqew4V .footer-lower .copyright {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+.cid-s8kJiqew4V .footer-lower hr {
+  margin: 1rem 0;
+  border-color: #000;
+  opacity: .05;
+}
+.cid-s8kJiqew4V .footer-lower .social-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+.cid-s8kJiqew4V .footer-lower .social-list .mbr-iconfont-social {
+  font-size: 1.3rem;
+  color: #232323;
+}
+.cid-s8kJiqew4V .footer-lower .social-list .soc-item {
+  margin: 0 .5rem;
+}
+.cid-s8kJiqew4V .footer-lower .social-list a {
+  margin: 0;
+  opacity: .5;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+.cid-s8kJiqew4V .footer-lower .social-list a:hover {
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .cid-s8kJiqew4V .footer-lower .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  .cid-s8kJiqew4V .foot-logo {
+    text-align: center !important;
+  }
+  .cid-s8kJiqew4V .foot-title {
+    text-align: center !important;
+  }
+  .cid-s8kJiqew4V .mbr-text {
+    text-align: center !important;
+  }
+  .cid-s8kJiqew4V .form-group {
+    margin: 0;
+  }
+}
+.cid-s8kJC5GRNG {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #2e2e2e;
+}
+@media (max-width: 767px) {
+  .cid-s8kJC5GRNG .content {
+    text-align: center;
+  }
+  .cid-s8kJC5GRNG .content > div:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+.cid-s8kJC5GRNG .img-logo img {
+  height: 6rem;
+}
+.cid-s8kJC5GRNG .form-group,
+.cid-s8kJC5GRNG .input-group-btn {
+  padding: 0;
+}
+.cid-s8kJC5GRNG .form-control {
+  font-size: .75rem;
+  text-align: center;
+  min-width: 150px;
+}
+.cid-s8kJC5GRNG .input-group-btn .btn {
+  padding: .75rem 1.5625rem !important;
+  margin-left: .625rem;
+  text-transform: none;
+  color: #fff;
+  text-align: center;
+}
+.cid-s8kJC5GRNG .social-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.cid-s8kJC5GRNG .social-list .mbr-iconfont-social {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.cid-s8kJC5GRNG .social-list .soc-item {
+  margin: 0 .5rem;
+}
+.cid-s8kJC5GRNG .social-list a {
+  margin: 0;
+  opacity: .5;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+.cid-s8kJC5GRNG .social-list a:hover {
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .cid-s8kJC5GRNG .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  .cid-s8kJC5GRNG .footer-lower .copyright {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+.cid-s8kJC5GRNG .footer-lower hr {
+  margin: 1rem 0;
+  border-color: #fff;
+  opacity: .05;
+}
+.cid-s8kJC5GRNG .form-group {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .cid-s8kJC5GRNG .foot-logo {
+    text-align: center !important;
+  }
+  .cid-s8kJC5GRNG .foot-title {
+    text-align: center !important;
+  }
+  .cid-s8kJC5GRNG .mbr-text {
+    text-align: center !important;
+  }
+  .cid-s8kJC5GRNG .form-group {
+    margin: 0;
+  }
+}
