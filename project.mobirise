@@ -15,7 +15,7 @@
         "mainFont": "Rubik",
         "display1Font": "Rubik",
         "display1Size": 4.25,
-        "display2Font": "Russo One",
+        "display2Font": "Rubik",
         "display2Size": 3,
         "display5Font": "Anton",
         "display5Size": 1.5,
@@ -54,7 +54,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 17,
+    "uniqCompNum": 18,
     "versionPublish": "4.12.4"
   },
   "pages": {
@@ -243,54 +243,54 @@
             "background-color": "@bgColor",
             ".counter-container": {
               "color": "#767676",
-              "ol": {
+              "ul": {
                 "margin-bottom": "0",
                 "li": {
-                  "margin-bottom": "1rem"
-                },
-                "& when (@stylizedCounters)": {
-                  "counter-reset": "myCounter",
-                  "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
                     "list-style": "none",
-                    "padding-left": ".5rem",
                     "position": "relative",
                     "&:before": {
                       "position": "absolute",
                       "left": "-56px",
                       "margin-top": "-10px",
-                      "counter-increment": "myCounter",
-                      "content": "counter(myCounter)",
+                      "padding-top": "3px",
+                      "content": "''",
                       "display": "inline-block",
                       "text-align": "center",
                       "margin": "5px 10px",
-                      "line-height": "40px",
+                      "line-height": "20px",
                       "transition": "all .2s",
                       "color": "contrast(@counterColor)",
                       "background": "@counterColor",
-                      "width": "40px",
-                      "height": "40px",
+                      "width": "25px",
+                      "height": "25px",
                       "border-radius": "50%",
-                      "& when (@squareCounters)": {
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
                         "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
                       }
                     }
                   }
                 }
               }
-            },
-            ".mbr-text": {
-              "text-align": "left",
-              "color": "#000000"
             }
           },
-          "_name": "content11",
-          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>100 % ONLINE&nbsp;</b></li>\n                    <li><b>GANHE DINHEIRO COM A &nbsp;MÚSICA</b></li>\n                    <li><b>&nbsp;PARA ARTISTAS OU PRODUTORES</b></li><li><b>CURSO ACTUALIZADO</b></li><li><b>COMPRA SEGURA</b></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s8kXxLgPWh",
+          "_name": "content12",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li><b>100 % ONLINE</b></li>\n                    <li><b>GANHE DINHEIRO COM A MÚSICA</b></li>\n                    <li><b>PARA ARTISTAS E PRODUTORES</b></li><li><b>CURSO ACTUALIZADO</b></li><li><b>COMPRA SEGURA</b></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s8l3rW1291",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "content11-g"
+          "_anchor": "content12-h"
         },
         {
           "alias": false,

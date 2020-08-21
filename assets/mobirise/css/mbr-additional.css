@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Russo+One:400&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Anton:400&display=swap);
 
 
@@ -18,7 +17,7 @@ body {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 3rem;
   font-display: swap;
 }
@@ -812,46 +811,39 @@ section.lazy-placeholder:after {
 .cid-s8koNuesCc H4 {
   color: #000000;
 }
-.cid-s8kXxLgPWh {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.cid-s8l3rW1291 {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #ffffff;
 }
-.cid-s8kXxLgPWh .counter-container {
+.cid-s8l3rW1291 .counter-container {
   color: #767676;
 }
-.cid-s8kXxLgPWh .counter-container ol {
+.cid-s8l3rW1291 .counter-container ul {
   margin-bottom: 0;
-  counter-reset: myCounter;
 }
-.cid-s8kXxLgPWh .counter-container ol li {
+.cid-s8l3rW1291 .counter-container ul li {
   margin-bottom: 1rem;
-}
-.cid-s8kXxLgPWh .counter-container ol li {
   list-style: none;
-  padding-left: .5rem;
   position: relative;
 }
-.cid-s8kXxLgPWh .counter-container ol li:before {
+.cid-s8l3rW1291 .counter-container ul li:before {
   position: absolute;
   left: -56px;
   margin-top: -10px;
-  counter-increment: myCounter;
-  content: counter(myCounter);
+  padding-top: 3px;
+  content: '';
   display: inline-block;
   text-align: center;
   margin: 5px 10px;
-  line-height: 40px;
+  line-height: 20px;
   transition: all .2s;
   color: #ffffff;
   background: #149dcc;
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
-}
-.cid-s8kXxLgPWh .mbr-text {
-  text-align: left;
-  color: #000000;
+  content: '✓';
 }
 .cid-s8kOS7y6cv {
   padding-top: 90px;
