@@ -812,8 +812,8 @@ section.lazy-placeholder:after {
   color: #000000;
 }
 .cid-s8l3rW1291 {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #ffffff;
 }
 .cid-s8l3rW1291 .counter-container {
@@ -843,6 +843,9 @@ section.lazy-placeholder:after {
   width: 25px;
   height: 25px;
   border-radius: 50%;
+  background: none;
+  border: 1px solid #149dcc;
+  color: #149dcc;
   content: '✓';
 }
 .cid-s8kOS7y6cv {
